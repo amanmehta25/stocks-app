@@ -43,8 +43,8 @@ class App extends Component {
   handleData(evt) {
     const newData = this.deserialiseData(
       JSON.parse(evt.data),
-      evt.timeStamp);
-    console.log(evt.timeStamp);
+      evt.timeStamp
+    );
 
     if (!this.state.data.length) {
 
